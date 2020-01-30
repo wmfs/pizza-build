@@ -1,0 +1,26 @@
+version: '2.1'
+
+services:
+  db:
+    image: postgres:9.6.12-alpine
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=tymly
+    ports:
+      - "4000:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+  tymly:
+    image: wmfs/docker-compose.yml
+    environment:
+      - PG_CONNECTION_STRING=postgres://postgres:postgres@db:5432/tymly
+      - TYMLY_AUTH_SECRET=Shh!
+      - TYMLY_AUTH_AUDIENCE="I am the audience!"
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "3210:3000"
