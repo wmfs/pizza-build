@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+git config --global user.name "wmfs-bot"
+git config --global user.email "tymly@wmfs.net"
+echo "Checking Git status"
+git remote set-url origin https://wmfs-bot:${GH_TOKEN}@github.com/wmfs/pizza-build.git
+git checkout master
+ncu -u
+changed=$(git status --porcelain)
+if [ -n "$changed" ] ; then
+        echo "Dependancy changes - continuing build";
+else
+        echo "No dependancy changes - cancelling build" && curl -u ${build_token} -X POST --header "Content-Type: application/json" https://circleci.com/api/v2/project/gh/wmfs/pizza-build/job/${CIRCLE_BUILD_NUM}/cancel;
+fi

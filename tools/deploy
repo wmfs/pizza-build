@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+today=$(date +%D)
+git config --global user.name "$GIT_COMMITTER_NAME"
+git config --global user.email "$GIT_COMMITTER_EMAIL"
+git remote set-url origin https://${GIT_COMMITTER_NAME}:${GH_TOKEN}@github.com/wmfs/pizza-build.git
+git checkout master
+git add .
+git commit -m "feat: build - $today [skip ci]"
+npx semantic-release
