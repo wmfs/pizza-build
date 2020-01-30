@@ -1,0 +1,50 @@
+{
+  "name": "@wmfs/tymly-nightly",
+  "version": "0.0.0-semantically-released",
+  "decsription": "WMFS Tymly development build",
+  "keywords": [
+    "tymly",
+    "build"
+  ],
+  "homepage": "https://github.com/wmfs/pizza-build#readme",
+  "bugs": {
+    "url": "https://github.com/wmfs/pizza-build/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wmfs/pizza-build.git"
+  },
+  "license": "MIT",
+  "author": "West Midlands Fire Service",
+  "dependencies": {
+    "@wmfs/tymly-auth-auth0-plugin": "1.18.0",
+    "@wmfs/tymly-etl-plugin": "1.124.0",
+    "@wmfs/tymly-express-plugin": "1.33.0",
+    "@wmfs/tymly-pg-plugin": "1.165.0",
+    "@wmfs/tymly-rbac-plugin": "1.17.0",
+    "@wmfs/tymly-rest-client-plugin": "1.6.0",
+    "@wmfs/tymly-runner": "2.116.0",
+    "@wmfs/tymly-solr-plugin": "2.4.0",
+    "@wmfs/tymly-cardscript-plugin": "1.10.0",
+    "@wmfs/pizza-blueprint": "1.7.0"
+  },
+  "devDependencies": {
+    "conventional-changelog-metahub": "4.0.0",
+    "cz-conventional-changelog": "3.1.0",
+    "semantic-release": "17.0.1",
+    "@semantic-release/changelog": "5.0.0",
+    "@semantic-release/git": "9.0.0",
+    "@semantic-release/exec": "5.0.0"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "publishConfig": {
+    "access": "private"
+  }
+}
