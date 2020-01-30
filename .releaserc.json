@@ -1,0 +1,41 @@
+{
+  "branch": "master",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    ["@semantic-release/npm", {
+      "npmPublish": false
+    }],
+    "@semantic-release/git",
+    "@semantic-release/exec"
+  ],
+  "analyzeCommits": {
+    "preset": "angular",
+    "releaseRules": [
+      {"type": "build", "scope":"deps", "release": "minor"}
+    ]
+  },
+  "generateNotes": {
+    "preset": "metahub"
+  },
+  "prepare": [
+    {
+      "path": "@semantic-release/changelog",
+      "changelogFile": "CHANGELOG.md"
+    },
+    {
+      "path": "@semantic-release/git",
+      "assets": ["CHANGELOG.md"]
+    }
+  ],
+  "publish": [
+    {
+      "path": "@semantic-release/exec",
+      "cmd": "docker tag wmfs/pizza-build wmfs/pizza-build:${nextRelease.version} && docker push wmfs/pizza-build && docker push wmfs/pizza-build:${nextRelease.version}"
+    },
+    "@semantic-release/github"
+  ],
+  "success": ["@semantic-release/github"],
+  "fail": ["@semantic-release/github"]
+}
