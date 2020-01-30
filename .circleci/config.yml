@@ -20,7 +20,7 @@ jobs:
           name: test image
           command: |
             docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
-            docker build -t wmfs/pizza-build
+            docker build -t wmfs/pizza-build .
             docker pull postgres:9.6.12-alpine
             bash ./tools/test
       - run:
