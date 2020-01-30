@@ -1,0 +1,7 @@
+{
+  "blueprintPaths": "/node_modules/@wmfs/*-blueprint",
+  "pluginPaths": "/node_modules/@wmfs/*-plugin",
+  "config": {
+    "serverPort": "3210"
+  }
+}
