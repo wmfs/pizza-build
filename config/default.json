@@ -2,6 +2,10 @@
   "blueprintPaths": "/node_modules/@wmfs/*-blueprint",
   "pluginPaths": "/node_modules/@wmfs/*-plugin",
   "config": {
-    "serverPort": "3210"
+    "serverPort": "3210",
+    "admin": {
+      "userId": "admin",
+      "roles": "ordnanceSurvey_ordnanceSurveyAdmin,wmfs_addressboxAdmin"
+    }
   }
 }
