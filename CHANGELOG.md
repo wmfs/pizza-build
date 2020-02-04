@@ -1,3 +1,20 @@
+# [1.3.0](https://github.com/wmfs/pizza-build/compare/v1.2.0...v1.3.0) (2020-02-04)
+
+
+### ✨ Features
+
+* build - 02/04/20 [skip ci] ([fefc27a](https://github.com/wmfs/pizza-build/commit/fefc27af42e52c0b4fa2910a7595d4acc39ce903))
+
+
+### 🛠 Builds
+
+* force release ([e410234](https://github.com/wmfs/pizza-build/commit/e410234e369bce5cd56654d2c750c2b4ab491850))
+
+
+### ♻️ Chores
+
+* add AUTH0_DOMAIN env var ([314d74c](https://github.com/wmfs/pizza-build/commit/314d74c186bd76f05ac42131c75902413496517e))
+
 # [1.2.0](https://github.com/wmfs/pizza-build/compare/v1.1.0...v1.2.0) (2020-02-03)
 
 
