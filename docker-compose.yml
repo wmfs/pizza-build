@@ -19,6 +19,7 @@ services:
       - PG_CONNECTION_STRING=postgres://postgres:postgres@db:5432/tymly
       - TYMLY_AUTH_SECRET=Shh!
       - TYMLY_AUTH_AUDIENCE="I am the audience!"
+      - AUTH0_DOMAIN=${AUTH0_DOMAIN}
     depends_on:
       db:
         condition: service_healthy
