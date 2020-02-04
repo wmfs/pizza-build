@@ -1,3 +1,20 @@
+# [1.4.0](https://github.com/wmfs/pizza-build/compare/v1.3.0...v1.4.0) (2020-02-04)
+
+
+### ✨ Features
+
+* build - 02/04/20 [skip ci] ([b07192b](https://github.com/wmfs/pizza-build/commit/b07192b7e7b2f4fea60fda72a20f43cd54d4903b))
+
+
+### 🛠 Builds
+
+* add tymly admin ([a89e0c9](https://github.com/wmfs/pizza-build/commit/a89e0c95add88c5dbbfecb3cbf41ff9d32872971))
+
+
+### ♻️ Chores
+
+* force build ([1d790fe](https://github.com/wmfs/pizza-build/commit/1d790fe3fb595c709a63c51e67e8dfeeaf418cf7))
+
 # [1.3.0](https://github.com/wmfs/pizza-build/compare/v1.2.0...v1.3.0) (2020-02-04)
 
 
