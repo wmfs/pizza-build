@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/wmfs/pizza-build/compare/v1.5.0...v1.6.0) (2020-02-07)
+
+
+### ✨ Features
+
+* build - 02/07/20 [skip ci] ([3f1f22a](https://github.com/wmfs/pizza-build/commit/3f1f22abadc289ac03a882f6dbf5e13c76576e9a))
+
 # [1.5.0](https://github.com/wmfs/pizza-build/compare/v1.4.0...v1.5.0) (2020-02-06)
 
 
