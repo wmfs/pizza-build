@@ -20,12 +20,12 @@
     "@wmfs/tymly-auth-auth0-plugin": "1.19.0",
     "@wmfs/tymly-etl-plugin": "1.126.0",
     "@wmfs/tymly-express-plugin": "1.33.0",
-    "@wmfs/tymly-pg-plugin": "1.169.0",
+    "@wmfs/tymly-pg-plugin": "1.170.0",
     "@wmfs/tymly-rbac-plugin": "1.17.0",
     "@wmfs/tymly-rest-client-plugin": "1.6.0",
     "@wmfs/tymly-runner": "2.117.0",
     "@wmfs/tymly-solr-plugin": "2.5.0",
-    "@wmfs/tymly-cardscript-plugin": "1.10.0",
+    "@wmfs/tymly-cardscript-plugin": "1.10.1",
     "@wmfs/pizza-blueprint": "1.7.1"
   },
   "devDependencies": {
