@@ -19,19 +19,19 @@
   "dependencies": {
     "@wmfs/tymly-auth-auth0-plugin": "1.19.0",
     "@wmfs/tymly-etl-plugin": "1.126.0",
-    "@wmfs/tymly-express-plugin": "1.33.0",
+    "@wmfs/tymly-express-plugin": "1.34.0",
     "@wmfs/tymly-pg-plugin": "1.170.0",
     "@wmfs/tymly-rbac-plugin": "1.17.0",
     "@wmfs/tymly-rest-client-plugin": "1.6.0",
     "@wmfs/tymly-runner": "2.117.0",
-    "@wmfs/tymly-solr-plugin": "2.5.0",
+    "@wmfs/tymly-solr-plugin": "2.6.0",
     "@wmfs/tymly-cardscript-plugin": "1.10.1",
     "@wmfs/pizza-blueprint": "1.7.1"
   },
   "devDependencies": {
     "conventional-changelog-metahub": "4.0.0",
     "cz-conventional-changelog": "3.1.0",
-    "semantic-release": "17.0.2",
+    "semantic-release": "17.0.3",
     "@semantic-release/changelog": "5.0.0",
     "@semantic-release/git": "9.0.0",
     "@semantic-release/exec": "5.0.0"
