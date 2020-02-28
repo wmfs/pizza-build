@@ -18,12 +18,12 @@
   "author": "West Midlands Fire Service",
   "dependencies": {
     "@wmfs/tymly-auth-auth0-plugin": "1.19.0",
-    "@wmfs/tymly-etl-plugin": "1.129.0",
+    "@wmfs/tymly-etl-plugin": "1.130.0",
     "@wmfs/tymly-express-plugin": "1.35.0",
-    "@wmfs/tymly-pg-plugin": "1.173.0",
+    "@wmfs/tymly-pg-plugin": "1.176.0",
     "@wmfs/tymly-rbac-plugin": "1.17.0",
     "@wmfs/tymly-rest-client-plugin": "1.6.0",
-    "@wmfs/tymly-runner": "2.120.0",
+    "@wmfs/tymly-runner": "2.121.0",
     "@wmfs/tymly-solr-plugin": "2.7.0",
     "@wmfs/tymly-cardscript-plugin": "1.11.0",
     "@wmfs/pizza-blueprint": "1.7.1"
