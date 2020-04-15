@@ -20,7 +20,7 @@
     "@wmfs/tymly-auth-auth0-plugin": "1.19.0",
     "@wmfs/tymly-etl-plugin": "1.135.0",
     "@wmfs/tymly-express-plugin": "1.37.0",
-    "@wmfs/tymly-pg-plugin": "1.190.0",
+    "@wmfs/tymly-pg-plugin": "1.191.0",
     "@wmfs/tymly-rbac-plugin": "1.17.0",
     "@wmfs/tymly-rest-client-plugin": "1.6.1",
     "@wmfs/tymly-runner": "2.130.0",
