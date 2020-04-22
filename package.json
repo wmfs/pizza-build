@@ -25,13 +25,13 @@
     "@wmfs/tymly-rest-client-plugin": "1.6.2",
     "@wmfs/tymly-runner": "2.131.0",
     "@wmfs/tymly-solr-plugin": "2.7.2",
-    "@wmfs/tymly-cardscript-plugin": "1.13.2",
+    "@wmfs/tymly-cardscript-plugin": "1.13.3",
     "@wmfs/pizza-blueprint": "1.7.1"
   },
   "devDependencies": {
     "conventional-changelog-metahub": "4.0.1",
     "cz-conventional-changelog": "3.1.0",
-    "semantic-release": "17.0.6",
+    "semantic-release": "17.0.7",
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.0",
     "@semantic-release/exec": "5.0.0"
