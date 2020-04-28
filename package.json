@@ -18,7 +18,7 @@
   "author": "West Midlands Fire Service",
   "dependencies": {
     "@wmfs/tymly-auth-auth0-plugin": "1.19.2",
-    "@wmfs/tymly-etl-plugin": "1.136.0",
+    "@wmfs/tymly-etl-plugin": "1.137.0",
     "@wmfs/tymly-express-plugin": "1.38.0",
     "@wmfs/tymly-pg-plugin": "1.195.2",
     "@wmfs/tymly-rbac-plugin": "1.17.2",
