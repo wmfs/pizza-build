@@ -19,7 +19,7 @@
   "dependencies": {
     "@wmfs/tymly-auth-auth0-plugin": "1.19.2",
     "@wmfs/tymly-etl-plugin": "1.137.0",
-    "@wmfs/tymly-express-plugin": "1.38.0",
+    "@wmfs/tymly-express-plugin": "1.38.1",
     "@wmfs/tymly-pg-plugin": "1.195.3",
     "@wmfs/tymly-rbac-plugin": "1.17.2",
     "@wmfs/tymly-rest-client-plugin": "1.6.2",
