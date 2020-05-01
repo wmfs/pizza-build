@@ -25,7 +25,7 @@
     "@wmfs/tymly-rest-client-plugin": "1.6.2",
     "@wmfs/tymly-runner": "2.133.0",
     "@wmfs/tymly-solr-plugin": "2.8.0",
-    "@wmfs/tymly-cardscript-plugin": "1.13.3",
+    "@wmfs/tymly-cardscript-plugin": "1.13.4",
     "@wmfs/pizza-blueprint": "1.7.1"
   },
   "devDependencies": {
