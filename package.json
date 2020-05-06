@@ -17,15 +17,15 @@
   "license": "MIT",
   "author": "West Midlands Fire Service",
   "dependencies": {
-    "@wmfs/tymly-auth-auth0-plugin": "1.19.2",
+    "@wmfs/tymly-auth-auth0-plugin": "1.19.3",
     "@wmfs/tymly-etl-plugin": "1.137.0",
-    "@wmfs/tymly-express-plugin": "1.38.1",
-    "@wmfs/tymly-pg-plugin": "1.195.3",
-    "@wmfs/tymly-rbac-plugin": "1.17.2",
+    "@wmfs/tymly-express-plugin": "1.38.2",
+    "@wmfs/tymly-pg-plugin": "1.195.4",
+    "@wmfs/tymly-rbac-plugin": "1.17.3",
     "@wmfs/tymly-rest-client-plugin": "1.6.2",
     "@wmfs/tymly-runner": "2.133.0",
-    "@wmfs/tymly-solr-plugin": "2.8.0",
-    "@wmfs/tymly-cardscript-plugin": "1.13.4",
+    "@wmfs/tymly-solr-plugin": "2.8.1",
+    "@wmfs/tymly-cardscript-plugin": "1.13.5",
     "@wmfs/pizza-blueprint": "1.7.1"
   },
   "devDependencies": {
