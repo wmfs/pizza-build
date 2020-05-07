@@ -10,5 +10,5 @@ changed=$(git status --porcelain)
 if [ -n "$changed" ] ; then
         echo "Dependancy changes - continuing build";
 else
-        echo "No dependancy changes - cancelling build" && curl -u ${build_token} -X POST --header "Content-Type: application/json" https://circleci.com/api/v2/project/gh/wmfs/pizza-build/job/${CIRCLE_BUILD_NUM}/cancel;
+        echo "No dependancy changes - cancelling build" && curl -u ${build_token}: -X POST --header "Content-Type: application/json" https://circleci.com/api/v2/project/gh/wmfs/pizza-build/job/${CIRCLE_BUILD_NUM}/cancel;
 fi
